@@ -26,5 +26,7 @@ CREATE TABLE `book_checkout` (
     due_date varchar(10) not null,
     check_in_date varchar(10),
     user_id int not null,
-    FOREIGN KEY (user_id) REFERENCES user(id)
+    FOREIGN KEY (user_id) REFERENCES user(id),
+    book_copy_id int not null,
+    FOREIGN KEY (book_copy_id) references book_copy (id)
 );
