@@ -6,7 +6,7 @@ VALUES
     ('Robert ','Carlson'),
     ('Murat', 'Vassiliev'),
     ('Thiago ','Gomes'),
-    ('Susanna', 'Ricci')
+    ('Susanna', 'Ricci');
     
 INSERT INTO book_type (isbn, title, author, publisher, publish_year)
 VALUES 
@@ -18,9 +18,9 @@ VALUES
     ('9780140299816', 'The Black Jacobins: Toussaint L`ouverture and the San Domingo Revolution', 'C L R James', 'Penguin', 2001),
     ('9780674980822', 'Capital and Ideology', 'Thomas Piketty', 'Harvard University Press', 2020),
     ('9780801495472', 'What Is to Be Done?', 'Nikolai Chernyshevsky', 'Cornell University Press', 1986),
-    ('9780895267115', 'Das Kapital: A Critique of Political Economy', 'Karl Marx', 'Gateway Editions', 2009)
+    ('9780895267115', 'Das Kapital: A Critique of Political Economy', 'Karl Marx', 'Gateway Editions', 2009);
     
-INSERT INTO book_copy (isbn)
+INSERT INTO book_copy (book_type_isbn)
 VALUES 
     ('9780141199078'), ('9780141199078'), ('9780141199078'), ('9780141199078'), ('9780141199078'), ('9780141199078'), ('9780141199078'),
     ('9780241968581'), ('9780241968581'), ('9780241968581'), ('9780241968581'), ('9780241968581'), ('9780241968581'), ('9780241968581'), ('9780241968581'), ('9780241968581'),
@@ -30,5 +30,5 @@ VALUES
     ('9780140299816'),
     ('9780674980822'), ('9780674980822'), ('9780674980822'), 
     ('9780801495472'), ('9780801495472'), ('9780801495472'), ('9780801495472'), ('9780801495472'), ('9780801495472'), ('9780801495472'), ('9780801495472'), ('9780801495472'), 
-    ('9780895267115'), ('9780895267115'), ('9780895267115'), ('9780895267115')
+    ('9780895267115'), ('9780895267115'), ('9780895267115'), ('9780895267115');
     
