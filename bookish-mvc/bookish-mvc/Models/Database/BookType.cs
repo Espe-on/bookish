@@ -4,8 +4,8 @@
     {
         public string Isbn { get; set; }
         public string Title { get; set; }
-        public string AuthorFirstName { get; set; }
-        public string AuthorLastName { get; set; }
+        public string Author { get; set; }
+        public string Publisher { get; set; }    
         public int PublishYear { get; set; }
     }
 }
